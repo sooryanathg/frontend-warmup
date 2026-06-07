@@ -1,11 +1,11 @@
-import MobileMenu from "@/components/MobileMenu";
+import MobileMenu from "./MobileMenu";
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b bg-black/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         
         {/* Logo */}
-        <div className="text-lg font-bold tracking-tight">
+        <div className="text-lg text-white  font-bold tracking-tight">
           GEC Palakkad
         </div>
 
