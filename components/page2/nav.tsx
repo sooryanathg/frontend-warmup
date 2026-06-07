@@ -1,40 +1,20 @@
 export default function Nav() {
   return (
-    <nav
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-        padding: "16px 40px",
-        background: "#f9fafb",
-        borderBottom: "1px solid #ddd",
-        fontFamily: "Arial",
-      }}
-    >
-      <h2
-        style={{
-          color: "blue",
-          margin: 0,
-        }}
-      >
+    <nav className="flex items-center justify-between px-10 py-4 bg-gray-50 border-b border-gray-300">
+      <h2 className="m-0 text-xl font-bold text-blue-600">
         IT Department 🚀
       </h2>
 
-      <div
-        style={{
-          display: "flex",
-          gap: "20px",
-        }}
-      >
-        <a href="#" style={{ textDecoration: "none", color: "#333" }}>
+      <div className="flex gap-5">
+        <a href="#" className="text-gray-700 no-underline hover:text-blue-600">
           Home
         </a>
 
-        <a href="#" style={{ textDecoration: "none", color: "#333" }}>
+        <a href="#" className="text-gray-700 no-underline hover:text-blue-600">
           About
         </a>
 
-        <a href="#" style={{ textDecoration: "none", color: "#333" }}>
+        <a href="#" className="text-gray-700 no-underline hover:text-blue-600">
           Contact
         </a>
       </div>
