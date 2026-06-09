@@ -13,9 +13,12 @@ export default function Nav() {
         </h2>
 
         <div className="hidden md:flex gap-5">
-          <a href="#" className="text-gray-700 hover:text-blue-600">
-            Home
-          </a>
+          <a
+  href="#"
+  className="text-blue-600 font-semibold border-b-2 border-blue-600"
+>
+  Home
+</a>
 
           <a href="#" className="text-gray-700 hover:text-blue-600">
             About
@@ -36,10 +39,12 @@ export default function Nav() {
 
       {menuOpen && (
         <div className="flex flex-col gap-3 px-6 pb-4 md:hidden">
-          <a href="#" className="text-gray-700 hover:text-blue-600">
-            Home
-          </a>
-
+          <a
+  href="#"
+  className="text-blue-600 font-semibold"
+>
+  Home
+</a>
           <a href="#" className="text-gray-700 hover:text-blue-600">
             About
           </a>
